@@ -45,24 +45,5 @@
       <comments>http://azure-rong.github.io/2019/03/29/%E5%85%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/#disqus_thread</comments>
     </item>
     
-    <item>
-      <title>test_page</title>
-      <link>http://azure-rong.github.io/2019/03/28/test-page/</link>
-      <guid>http://azure-rong.github.io/2019/03/28/test-page/</guid>
-      <pubDate>Thu, 28 Mar 2019 13:24:36 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;h1 id=&quot;测试页&quot;&gt;&lt;a href=&quot;#测试页&quot; class=&quot;headerlink&quot; title=&quot;测试页&quot;&gt;&lt;/a&gt;测试页&lt;/h1&gt;&lt;p&gt;Test Hexo static page&lt;sup&gt;&lt;a href=&quot;#fn_1&quot; id=&quot;reffn_1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
-        
-      
-      </description>
-      
-      <content:encoded><![CDATA[<h1 id="测试页"><a href="#测试页" class="headerlink" title="测试页"></a>测试页</h1><p>Test Hexo static page<sup><a href="#fn_1" id="reffn_1">1</a></sup>.</p><p>测试 Hexo 静态网页生成。</p><p>测试数学公式：<br>$E=mc^{2}$</p><script type="math/tex; mode=display">\begin{equation}\sum a_{0}b^{2}\beta\end{equation} \label{eq1}</script><script type="math/tex; mode=display">\begin{equation}\begin{aligned}a &= b + c \\  &= d + e + f + g \\  &= h + i\end{aligned}\end{equation}\label{eq2}​</script><blockquote><p>测试引用。    </p></blockquote><p>测试链接：<a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p><blockquote id="fn_1"><sup>1</sup>. 测试脚注<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote>]]></content:encoded>
-      
-      <comments>http://azure-rong.github.io/2019/03/28/test-page/#disqus_thread</comments>
-    </item>
-    
   </channel>
 </rss>

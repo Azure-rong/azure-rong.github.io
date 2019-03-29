@@ -23,9 +23,4 @@
         <tag>随笔</tag>
       </tags>
   </entry>
-  <entry>
-    <title><![CDATA[test_page]]></title>
-    <url>%2F2019%2F03%2F28%2Ftest-page%2F</url>
-    <content type="text"><![CDATA[测试页Test Hexo static page1. 测试 Hexo 静态网页生成。 测试数学公式：$E=mc^{2}$ \begin{equation} \sum a_{0}b^{2}\beta \end{equation} \label{eq1}\begin{equation} \begin{aligned} a &= b + c \\ &= d + e + f + g \\ &= h + i \end{aligned} \end{equation}\label{eq2}​ 测试引用。 测试链接：https://www.baidu.com 1. 测试脚注 &#8617;]]></content>
-  </entry>
 </search>
