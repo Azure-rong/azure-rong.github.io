@@ -8,8 +8,31 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>学习和研究的记录，关注数据科学和电子商务。</description>
-    <pubDate>Fri, 29 Mar 2019 13:10:44 GMT</pubDate>
+    <pubDate>Fri, 29 Mar 2019 16:08:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Windows 系统使用 Hexo 搭建博客记录（一）：配置本地环境</title>
+      <link>http://azure-rong.github.io/2019/03/29/Windows-%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8-Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83/</link>
+      <guid>http://azure-rong.github.io/2019/03/29/Windows-%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8-Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83/</guid>
+      <pubDate>Fri, 29 Mar 2019 15:48:13 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;这是 Windows 系统使用 Hexo 搭建博客系列文章：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;配置本地环境；&lt;/li&gt;
+&lt;li&gt;连接网络；&lt;/li&gt;
+&lt;li&gt;博客配置和主题配置；&lt;/li&gt;
+&lt;li&gt;博客写作；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这是第一篇：配置本地环境。&lt;/p&gt;
+      
+      </description>
+      
+      <content:encoded><![CDATA[<p>这是 Windows 系统使用 Hexo 搭建博客系列文章：</p><ol><li>配置本地环境；</li><li>连接网络；</li><li>博客配置和主题配置；</li><li>博客写作；</li></ol><p>这是第一篇：配置本地环境。</p><a id="more"></a><h1 id="1-下载-Node-js-和-Git（Cmder）"><a href="#1-下载-Node-js-和-Git（Cmder）" class="headerlink" title="1. 下载 Node.js 和 Git（Cmder）"></a>1. 下载 Node.js 和 Git（Cmder）</h1><p>使用 Hexo 前必须有 Node.js 和 Git 的支持。<br>原因是：配置本地环境就是要有搭建网页（前端）工具：Node.js，以便之后使用专门的博客工具（Hexo，Jekyll 等）来进行网页生成。而又由于 Windows 对 Node.js 的支持并不好，因此还需要下载 Git 来进行操作。<br>而又因为 Windows 下对 Git 的支持也不好，因此需要下载 msysgit。正好 Windows 下的原生 Cmd 并不好用，因此可以下载完整版的 <a href="https://cmder.net/" target="_blank" rel="noopener">Cmder</a> <sup><a href="#fn_1" id="reffn_1">1</a></sup>，里面自带了 msysgit，并且界面非常漂亮。因此此后所有的博客相关操作，包括 Git 的相关操作，都无需再使用很丑的 git-bash，而直接用 Cmder 即可。</p><h2 id="1-1-下载-Cmder-完整版"><a href="#1-1-下载-Cmder-完整版" class="headerlink" title="1.1 下载 Cmder 完整版"></a>1.1 下载 Cmder 完整版</h2><p><img src="/2019/03/29/Windows-系统使用-Hexo-搭建博客记录（一）：配置本地环境/download_Cmder_full_version.jpg" alt="download_Cmder_full_version"></p><h2 id="1-2-下载-Node-js"><a href="#1-2-下载-Node-js" class="headerlink" title="1.2 下载 Node.js"></a>1.2 下载 Node.js</h2><ol><li>下载 Node.js 的 <a href="https://nodejs.org/zh-cn/download/" target="_blank" rel="noopener">Windows 安装包</a>。</li><li>测试 Node.js 是否成功安装<br>在 Cmder 中输入命令：<code>npm --version</code>，若正常安装即可显示版本信息。</li></ol><h1 id="2-使用和配置-Hexo"><a href="#2-使用和配置-Hexo" class="headerlink" title="2. 使用和配置 Hexo"></a>2. 使用和配置 Hexo</h1><ol><li>Hexo <sup><a href="#fn_2" id="reffn_2">2</a></sup> 事实上是 Node.js 的一个工具，因此安装 Hexo 是全局安装的；</li><li>然后要初始化 Hexo，那初始化就是需要指定文件夹的，那这个文件夹就是我们的博客文件夹；</li><li>初始化之后，在文件夹中就会有 Hexo 的相关配置文件；</li><li>下一步就是要下载 Hexo 的相关插件，来丰富博客的功能；</li></ol><h2 id="2-1-安装-Hexo"><a href="#2-1-安装-Hexo" class="headerlink" title="2.1 安装 Hexo"></a>2.1 安装 Hexo</h2><ol><li>直接在根目录下即可安装 Hexo（因此 Hexo 事实上是全局的），输入命令：<code>npm install -g hexo-cli</code></li><li>安装之后使用 <code>hexo version</code> 进行检查，若正常输出则安装成功。</li></ol><h2 id="2-2-使用-Hexo-建立网站"><a href="#2-2-使用-Hexo-建立网站" class="headerlink" title="2.2 使用 Hexo 建立网站"></a>2.2 使用 Hexo 建立网站</h2><ol><li>去到博客所在的文件夹，输入：<code>hexo init blog_directory_path</code><br>显示 <code>INFO Start blogging with Hexo!</code> 即表示初始化成功。<br>之后在博客文件夹中，会有如下文件/文件夹：<br><img src="/2019/03/29/Windows-系统使用-Hexo-搭建博客记录（一）：配置本地环境/init_hexo_file_tree.jpg" alt="init_hexo_file_tree"><ul><li><code>_config.yml</code>：网站的配置信息，如网站名等；</li><li><code>package.json</code>：网站的插件信息，以下这些插件是默认安装的；<br><img src="/2019/03/29/Windows-系统使用-Hexo-搭建博客记录（一）：配置本地环境/hexo_package_json.jpg" alt="hexo_package_json"></li><li><code>scaffolds</code>：存储了文档模板的文件夹，在生成博文时会根据模板默认填充部分信息如标题、日期、标签等，可定制化；</li><li><code>source</code>：存储博文的文件夹，博文存储在 <code>_post</code> 文件夹中，在网站生成（部署）的时候，<code>_post</code> 文件夹里面的博文会被放到一个新建的 <code>public</code> 文件夹中；</li><li><code>themes</code>：存储主题文件夹，默认主题是 <code>lanpscape</code>。注意，主题文件夹中的 <code>_config.yml</code> 和 <code>package.json</code> 是对主题进行修改配置的文件；</li></ul></li><li>进入博客文件夹，输入：<code>npm install</code>，完成最后的初始化操作。</li></ol><h2 id="2-3-安装-Hexo-插件"><a href="#2-3-安装-Hexo-插件" class="headerlink" title="2.3 安装 Hexo 插件"></a>2.3 安装 Hexo 插件</h2><ul><li>安装 git 上传插件：<code>npm install hexo-deployer-git --save</code></li><li>安装搜索插件：<code>npm install hexo-generator-searchdb --save</code></li><li>安装 RSS 插件：<code>npm install hexo-generator-feed --save</code></li></ul><h1 id="3-生成静态网页进行检测"><a href="#3-生成静态网页进行检测" class="headerlink" title="3. 生成静态网页进行检测"></a>3. 生成静态网页进行检测</h1><p>输入以下三个语句即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new test_page # 在 _post 文件夹中新建一个 md 文件叫 test_page</span><br><span class="line">hexo generate # 把博文的网页生成出来</span><br><span class="line">hexo server # 生成静态网页</span><br></pre></td></tr></table></figure></p><p><img src="/2019/03/29/Windows-系统使用-Hexo-搭建博客记录（一）：配置本地环境/hexo_server_test.jpg" alt="hexo_server_test"></p><h1 id="4-Hexo-升级"><a href="#4-Hexo-升级" class="headerlink" title="4. Hexo 升级"></a>4. Hexo 升级</h1><p><code>很可能会出问题，慎用！</code><br>命令：<code>npm update hexo -g</code></p><p>脚注：</p><blockquote id="fn_1"><sup>1</sup>. <a href="https://zhuanlan.zhihu.com/p/28400466" target="_blank" rel="noopener">Windows上的程序员神器——Cmder</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo 文档</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a></blockquote>]]></content:encoded>
+      
+      <comments>http://azure-rong.github.io/2019/03/29/Windows-%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8-Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>思考的感性与理性</title>
