@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-lamp.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-lamp.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-lamp.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: true,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="电脑，是生产力工具。因此软件配置的目的，是最大化生产力，是在最短的时间，使用上最合适的工具。">
+<meta name="keywords" content="软件,配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Win10 软件配置方案">
+<meta property="og:url" content="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/index.html">
+<meta property="og:site_name" content="学 无 止 境">
+<meta property="og:description" content="电脑，是生产力工具。因此软件配置的目的，是最大化生产力，是在最短的时间，使用上最合适的工具。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/keyboard.jpg">
+<meta property="og:updated_time" content="2019-05-05T12:08:07.076Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Win10 软件配置方案">
+<meta name="twitter:description" content="电脑，是生产力工具。因此软件配置的目的，是最大化生产力，是在最短的时间，使用上最合适的工具。">
+<meta name="twitter:image" content="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/keyboard.jpg">
+
+
+
+  <link rel="alternate" href="/rss2.xml" title="学 无 止 境" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Win10 软件配置方案 | 学 无 止 境</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">学 无 止 境</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Re Search</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Rong Zhe">
+      <meta itemprop="description" content="学习和研究的记录，关注数据科学和电子商务。">
+      <meta itemprop="image" content="/images/avatar-lamp.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学 无 止 境">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Win10 软件配置方案
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-05 00:33:07 / 修改时间：20:08:07" itemprop="dateCreated datePublished" datetime="2019-05-05T00:33:07+08:00">2019-05-05</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/工具/" itemprop="url" rel="index"><span itemprop="name">工具</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+            <span id="/2019/05/05/Win10-软件配置方案/" class="leancloud_visitors" data-flag-title="Win10 软件配置方案">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读次数：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="/2019/05/05/Win10-软件配置方案/keyboard.jpg" alt="keyboard"></p>
+<p>电脑，是生产力工具。因此软件配置的目的，是最大化生产力，是在最短的时间，使用上最合适的工具。</p>
+<a id="more"></a>
+<h1 id="1-基础设置"><a href="#1-基础设置" class="headerlink" title="1. 基础设置"></a>1. 基础设置</h1><p>如果是第一次开机装软件：</p>
+<ol>
+<li>按照指示设置 Windows，包括地区（中国）、语言、输入法（可添加英文输入法及键盘）等。从“所有设置→系统→关于查看”电脑的基本信息；</li>
+<li>由于电脑可能较早就安装了 Windows 系统，而开机的时候已经过了一段时间，因此需要对 Windows 系统进行更新。“所有设置→更新和安全→Windows 更新→检查更新”</li>
+<li>使用 Win10 自带的 Edge 浏览器，使用 <a href="https://cn.bing.com/?ensearch=1&amp;FORM=BEHPTB" target="_blank" rel="noopener">bing.com 国际版</a>进行搜索，下载软件及安装。此时最主要的是需要能对软件清理及管理，下载软件及安装。此时最主要的是需要软件清理及管理)的软件，安全防护软件，以及解压软件 ；</li>
+</ol>
+<p>如果是想对已有的系统进行优化：可参考以下的软件推荐及配置方法。</p>
+<h1 id="2-系统必备软件"><a href="#2-系统必备软件" class="headerlink" title="2. 系统必备软件"></a>2. 系统必备软件</h1><h2 id="360-Total-Security-或火绒安全：杀毒软件。"><a href="#360-Total-Security-或火绒安全：杀毒软件。" class="headerlink" title="360 Total Security 或火绒安全：杀毒软件。"></a><a href="https://www.360totalsecurity.com/" target="_blank" rel="noopener">360 Total Security</a> 或<a href="https://www.huorong.cn/" target="_blank" rel="noopener">火绒安全</a>：杀毒软件。</h2><p><strong>说明</strong>：虽说Windows自带的Defender也不错，不过一些专业杀毒软件的优化做得更好些。相比国产360，出口的360 total security 弹窗少，安静，所以可以用。火绒也是被很多人推荐，不扰人，功能较为齐全。火绒安全的主要功能是主动防护而非主动杀毒。</p>
+<p><strong>配置</strong>：无，开箱即用。</p>
+<p><strong>缺点</strong>：资源占用率稍高。</p>
+<h2 id="CCleaner-Defraggler-Recuva：梨子公司三件套。"><a href="#CCleaner-Defraggler-Recuva：梨子公司三件套。" class="headerlink" title="CCleaner/Defraggler/Recuva：梨子公司三件套。"></a><a href="https://www.piriform.com/" target="_blank" rel="noopener">CCleaner/Defraggler/Recuva</a>：梨子公司三件套。</h2><p><strong>说明</strong>：梨子公司三件套是Windows必备软件。</p>
+<ul>
+<li>CCleaner 用于清理电脑垃圾，卸载软件，管理开机启动项等等；</li>
+<li>Defraggler 用于清理电脑里面的碎片；</li>
+<li>Recuva 用于恢复误删的文件。</li>
+</ul>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>无，都是开箱即用。</li>
+<li>小技巧，Defraggler 在扫描完碎片后，先查看文件，按大小排序，全选后把大碎片勾除，把剩下的中小碎片清理完，最后再解决大碎片。因为其中几个大碎片是无法清理的，全部一起清理会造成很多小碎片没有完整清理。</li>
+</ul>
+<p><strong>缺点</strong>：非付费用户需要手动升级。</p>
+<h2 id="Everything：快速搜索。"><a href="#Everything：快速搜索。" class="headerlink" title="Everything：快速搜索。"></a><a href="https://www.voidtools.com/" target="_blank" rel="noopener">Everything</a>：快速搜索。</h2><p><strong>说明</strong>：快速且强大的搜索，体型小巧，是 Windows 必装软件。</p>
+<p><strong>配置</strong>：无，可保存搜索的语句。</p>
+<p><strong>基本语法</strong>：</p>
+<ul>
+<li><code>file:XXX</code>, <code>folder:XXX</code>，指定搜文件、文件夹；</li>
+<li><code>XX YY</code>, <code>XX|YY</code>, <code>XX!YY</code>：逻辑运算符，与或非；</li>
+<li><code>ext:</code>, <code>case:</code>, <code>size:</code>：指定拓展名、大小写，文件大小；</li>
+<li><code>da:</code>, <code>dc:</code>, <code>dm:</code>：指定文件读取、创建和修改的日期；</li>
+</ul>
+<p><strong>缺点</strong>：无明显缺点，除了精确搜索时需要掌握一些技巧（如正则表达式，逻辑运算符），有一点入门门槛。</p>
+<h2 id="好压：压缩解压软件。"><a href="#好压：压缩解压软件。" class="headerlink" title="好压：压缩解压软件。"></a><a href="http://haozip.2345.com/" target="_blank" rel="noopener">好压</a>：压缩解压软件。</h2><p><strong>说明</strong>：很多安装包都是压缩文件，因此解压软件是必备的。好压功能完善，比 7z 好用，但有广告弹窗；</p>
+<p><strong>配置</strong>：注意安装选项去除额外的安装，并使用任务管理器跟踪弹窗的来源进行删除；</p>
+<p><strong>缺点</strong>：弹窗，丑。</p>
+<h2 id="Memreduct：降低内存。"><a href="#Memreduct：降低内存。" class="headerlink" title="Memreduct：降低内存。"></a><a href="https://www.henrypp.org/product/memreduct" target="_blank" rel="noopener">Memreduct</a>：降低内存。</h2><p><strong>说明</strong>：若机子内存不高，启动太多应用时会占用大量内存，使用 Memreduct 可清理掉部分内存，腾出空间；</p>
+<p><strong>配置</strong>：设置开机启动和最小化启动，跳过警告，设置自动清理内存的阈值（触发器），设置快捷键（Ctrl+`），设置”使用透明背景“，设置鼠标控制（双击为清理内存）；</p>
+<p><strong>缺点</strong>：若超过设定清理内存的阈值，会一直不断清理并弹窗，有些烦人。</p>
+<h1 id="3-系统界面强化软件"><a href="#3-系统界面强化软件" class="headerlink" title="3. 系统界面强化软件"></a>3. 系统界面强化软件</h1><p>在系统强化上，主要是做到界面清爽，所需的工具和资料能随手可得或可查，具体目标如下：</p>
+<ul>
+<li>桌面无图标，保持清爽；</li>
+<li>任务栏放置常用的软件，可随时使用；</li>
+<li>需要的软件可随时呼叫出现；</li>
+<li>资料可以随时方便的查找。</li>
+</ul>
+<h2 id="Launchy：快速启动。"><a href="#Launchy：快速启动。" class="headerlink" title="Launchy：快速启动。"></a><a href="http://www.launchy.net/" target="_blank" rel="noopener">Launchy</a>：快速启动。</h2><p><strong>说明</strong>：</p>
+<ul>
+<li>桌面最好一个软件图标都不要放，那打开软件就需要快速启动软件的帮忙，Launchy 就是其中的佼佼者。</li>
+<li>Launchy 在 Win10 下简单易操作，使用特定皮肤后颜值高。Autohotkey 门槛较高，需要记得快捷键，不太人性化。AltRun 一直没更新，颜值低。</li>
+</ul>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>下载<a href="http://afgdesign.deviantart.com/art/OS-X-Yosemite-Launchy-Skins-459715719" target="_blank" rel="noopener">苹果主题</a> （OS X Yosemite） ，解压后放在<code>launchy/skins</code>文件夹里面，之后在 Launchy 的“选项”——“皮肤”里面就可以选择了；</li>
+<li>设置呼出的快捷键。右键点击 Launchy，“选项”——“常规”——“Hotkey”，为了不与快速关闭程序的快捷键<code>Alt+Space+C</code>冲突，我把 Launchy 的快捷键设置为<code>Ctrl+Space</code>；</li>
+<li>一般来说 Launchy 会扫描软件，然后输入软件名称就可以直接打开软件。但是有些扫描不到的软件，就需要在<code>选项 - 插件 - Runner</code>那里添加。直接把软件 exe 拖进去即可，还可以修改呼出的名字；</li>
+<li>Launchy 和 Everything 可集成起来，这样可以直接快捷键呼出 Lanuchy 后直接输入搜索命令，极为方便。为了让 Launchy 和 Everything 集成，需要在 Runner 那里把 Everything 的 exe 拖进去（此时 Program 那里应该是<code>C:\Program Files\Everything\Everything.exe</code>），然后把关键词（Name）改成自己喜欢的，我用的是<code>f</code>，最后把 Arguments 改为<code>-s &quot; $$</code>即可。使用的时候是快捷键呼出 Launchy，然后输入 f，<strong>按 Tab 键</strong>，再输入要搜索的内容，回车即可；</li>
+<li>要使用网络搜索引擎时，可以在“选项”——“Weby”插件那里设置。比如设置百度搜索，<code>https://www.baidu.com/s?ie=UTF-8&amp;tn=null&amp;wd=%1</code>。使用时需要呼出 Launchy，输入搜索引擎关键字如 <code>Google</code>，然后按  <strong>Tab 键</strong>，输入搜索内容，回车即可；</li>
+<li>Launchy 可设置开机启动。“Win+R 打开运行窗口→输入 shell:startup→打开启动文件夹→把 Launchy 的快捷方式加进去即可”。</li>
+</ul>
+<p><strong>缺点</strong>：时不时不明原因的崩溃，然后皮肤、快捷键、Runner 那里的软件都要重设。</p>
+<h2 id="Free-Launch-Bar：替代-Win10-原生的任务栏。"><a href="#Free-Launch-Bar：替代-Win10-原生的任务栏。" class="headerlink" title="Free Launch Bar：替代 Win10 原生的任务栏。"></a><a href="http://www.freelaunchbar.com/" target="_blank" rel="noopener">Free Launch Bar</a>：替代 Win10 原生的任务栏。</h2><p><strong>说明</strong>：Free Launch Bar 可以完全替代 windows 原生的任务栏，并且可以把任务放在桌面底部中间，非常美观。</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>安装 FreeLaunchBar 之后，右键点击任务栏，在“工具栏”那里选择“Free Launch Bar”，然后把“锁定工具栏”的勾去掉，这时就可以把任务栏随意移动了，调到合适的位置（我是调到中间），再把“锁定工具栏”的勾点上即可；</li>
+<li>Win10 和白色图标更配。方法是首先下载白色图标（可以在 <a href="http://www.iconfont.cn/plus" target="_blank" rel="noopener">iconfont</a>下载图标，下载时把颜色设为白色，下载 png 后使用<a href="http://convertico.com/" target="_blank" rel="noopener">在线 png 转 ico</a>，把图标转成 ico 格式即可）。然后把软件的快捷方式放到桌面，右键快捷方式，在属性中更换图标。最后把更换后的图标固定在快速启动栏上，再删除快捷方式即可；</li>
+<li>去除桌面“我的电脑”和“回收站”图标方法：“设置→个性化→主题→桌面图标设置→取消勾选我的电脑和回收站即可”。</li>
+</ul>
+<p><strong>缺点</strong>：图标处理稍微麻烦。</p>
+<h2 id="TranslucentTB：让任务栏变透明。"><a href="#TranslucentTB：让任务栏变透明。" class="headerlink" title="TranslucentTB：让任务栏变透明。"></a><a href="https://www.microsoft.com/zh-cn/p/translucenttb/9pf4kz2vn4w9" target="_blank" rel="noopener">TranslucentTB</a>：让任务栏变透明。</h2><p><strong>说明</strong>：可以让任务栏变透明，美观度大幅上涨。</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>安装完成后，<strong>右键点击</strong>图标，Regular→Clear，即可让任务栏透明；</li>
+<li>勾选 Open at boot，设置开机自动启动。</li>
+</ul>
+<p><strong>缺点</strong>：开机后有一小段时间的运行程序才能启动，但无伤大雅。</p>
+<h2 id="QTTabbar：资源管理器多标签。"><a href="#QTTabbar：资源管理器多标签。" class="headerlink" title="QTTabbar：资源管理器多标签。"></a><a href="http://qttabbar.wikidot.com/" target="_blank" rel="noopener">QTTabbar</a>：资源管理器多标签。</h2><p><strong>说明</strong>：QTTabbar 和 <a href="http://cn.ejie.me/" target="_blank" rel="noopener">Clover</a> 都能实现资源管理器多标签功能，但 QTTabbar 相比 Clover 更小巧，bug 比 Clover 少非常多。Clover 经常不明原因崩溃，而且在 Win10 下表现并不好。</p>
+<p><strong>配置</strong>：调整 Option 里面的选项，如双击标签是关闭，右键空白处关闭 QTTabs standard buttons；</p>
+<p><strong>缺点</strong>：配置比较麻烦。</p>
+<h2 id="Smart-Taskbar：智能任务栏。"><a href="#Smart-Taskbar：智能任务栏。" class="headerlink" title="Smart Taskbar：智能任务栏。"></a><a href="https://github.com/ChanpleCai/SmartTaskbar/releases" target="_blank" rel="noopener">Smart Taskbar</a>：智能任务栏。</h2><p><strong>说明</strong>：其主要功能就是在窗口最大化的时候自动隐藏任务栏，然后平时显示任务栏。其实可以直接在 Windows 设置里面调整自动隐藏任务栏，但在没有最大化的窗口时确实是不需要隐藏任务栏的，因此这个软件是可以安装的；</p>
+<p><strong>配置</strong>：可将任务栏图标设置为”小按钮“，也可以设置为自动隐藏（即”智能“）；</p>
+<p><strong>缺点</strong>：有一些 bug 影响体验，如在窗口最大化时，有时候鼠标移动到任务栏时任务栏会一直隐藏，不弹出来。使用 FoxitReader 最大化的时候会循环一直最大化。</p>
+<h1 id="4-日常所需软件"><a href="#4-日常所需软件" class="headerlink" title="4. 日常所需软件"></a>4. 日常所需软件</h1><h2 id="Chrome：网络浏览器。"><a href="#Chrome：网络浏览器。" class="headerlink" title="Chrome：网络浏览器。"></a><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" rel="noopener">Chrome</a>：网络浏览器。</h2><p><strong>说明</strong>：浏览器还是喜欢 Chrome，各式好用的插件，F12 网页调试神器。</p>
+<p><strong>配置</strong>：主要插件列表。</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/laookkfknpbbblfpciffpaejjkokdgca" target="_blank" rel="noopener">Momentum</a>：强化并美观的新标签页。设置 show links, search, weather；</li>
+<li><a href="https://chrome.google.com/webstore/detail/gjldcdngmdknpinoemndlidpcabkggco" target="_blank" rel="noopener">Extension Manager</a>：一键管理所有扩展；</li>
+<li><a href="https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom" target="_blank" rel="noopener">AdBlock</a>：屏蔽广告；</li>
+<li><a href="https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener">Proxy Switchy Omega</a>：翻墙，配合 XXNet 使用；</li>
+<li><a href="https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener">OneTab</a>：将一系列网页压缩为一个标签页，下次打开浏览器时会自动出现，即稍后再读；</li>
+<li><a href="https://chrome.google.com/webstore/detail/klbibkeccnjlkjkiokjodocebajanakg" target="_blank" rel="noopener">The Great Suspender</a>：网页在设定时间内未浏览则自动设为暂时关闭状态，以减少 Chrome 对内存的消耗；</li>
+<li><a href="https://chrome.google.com/webstore/detail/mlomiejdfkolichcflejclcbmpeaniij" target="_blank" rel="noopener">Ghostery</a>：隐私广告拦截；</li>
+<li><a href="https://chrome.google.com/webstore/detail/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="noopener">Vimuim</a>：纯键盘操作 Chrome；</li>
+<li><a href="https://chrome.google.com/webstore/detail/khpcanbeojalbkpgpmjpdkjnkfcgfkhb" target="_blank" rel="noopener">Chromium Wheel Smooth Scoller</a>：更顺畅的滑动条；</li>
+<li><a href="https://chrome.google.com/webstore/detail/ncennffkjdiamlpmcbajkmaiiiddgioo" target="_blank" rel="noopener">迅雷下载</a>：用于启动迅雷下载；</li>
+<li><a href="http://ksria.com/simpread/" target="_blank" rel="noopener">简悦</a>：专注模式的网页阅读；</li>
+<li><a href="http://markdown-here.com/" target="_blank" rel="noopener">Markdown Here</a>：用 Markdown 写邮件；</li>
+<li><a href="https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd?hl=zh-CN" target="_blank" rel="noopener">IE Tab</a>：在 Chrome 中使用 IE 内核；</li>
+<li><a href="https://www.gwdang.com/" target="_blank" rel="noopener">购物党自动比价工具</a>：观察电商网站商品价格走势，领取淘宝卖家券；</li>
+<li><a href="https://chrome.google.com/webstore/detail/jfanfpmalehkemdiiebjljddhgojhfab" target="_blank" rel="noopener">WizClipper</a>：为知笔记剪藏器；</li>
+<li><a href="https://chrome.google.com/webstore/detail/dagcmkpagjlhakfdhnbomgmjdpkdklff" target="_blank" rel="noopener">Mendeley Importer</a>：Mendeley 文献导入器；</li>
+<li><a href="https://chrome.google.com/webstore/detail/hgimnogjllphhhkhlmebbmlgjoejdpjl" target="_blank" rel="noopener">Xpath Helper</a>：用于测试爬虫；</li>
+<li><a href="https://github.com/lmk123/crx-selection-translate" target="_blank" rel="noopener">划词翻译</a>：网页上划词即可翻译，有国内翻译源，较为稳定；</li>
+<li><a href="https://github.com/ovity/octotree" target="_blank" rel="noopener">Octotree</a>：侧边栏显示 Github 项目的树状结构；</li>
+<li><a href="https://chrome.google.com/webstore/detail/gfgkebiommjpiaomalcbfefimhhanlfd" target="_blank" rel="noopener">京价保</a>：自动登陆京东领取京豆以及监测已买产品的价格变动完成价格保护；</li>
+</ul>
+<p>两个额外增强型扩展：</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/" target="_blank" rel="noopener">Stylus</a>：重设网页布局，可以重设 Wikipedia、百度、淘宝、微博等网页的布局；<br>使用 Stylus 需要在安装后，在<a href="https://userstyles.org/" target="_blank" rel="noopener">官方网站 userstyles</a> 中下载布局，优秀的布局有：<ul>
+<li><a href="https://userstyles.org/styles/123858/baidu-lite" target="_blank" rel="noopener">百度轻</a></li>
+<li><a href="https://userstyles.org/styles/139227/wikipedia-new-light" target="_blank" rel="noopener">Wikipedia New Light</a></li>
+<li><a href="https://userstyles.org/styles/131305/taobao-xx" target="_blank" rel="noopener">淘宝助手</a></li>
+<li><a href="https://userstyles.org/styles/123737/weibo-v6-patch" target="_blank" rel="noopener">Weibo V6 Patch</a></li>
+<li><a href="https://userstyles.org/styles/134090/taobao-login" target="_blank" rel="noopener">淘宝登录页</a></li>
+<li><a href="https://userstyles.org/styles/21446/youku-cleaner-ad-block-for-youku-com" target="_blank" rel="noopener">Youku Cleaner</a></li>
+<li><a href="https://userstyles.org/styles/135468/theme" target="_blank" rel="noopener">百度文库-屏蔽</a></li>
+<li><a href="https://userstyles.org/styles/130739/theme" target="_blank" rel="noopener">百度百科-屏蔽</a></li>
+<li><a href="https://userstyles.org/styles/130901/theme" target="_blank" rel="noopener">百度知道-屏蔽</a></li>
+<li><a href="https://userstyles.org/styles/132605/theme" target="_blank" rel="noopener">百度经验-屏蔽</a></li>
+</ul>
+</li>
+<li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener">Tampermonkey</a>：油猴，可安装网页脚本做各种事情，打开网络资源的新大门；<br>使用 Tampermonkey 需要安装之后，在<a href="https://greasyfork.org/zh-CN" target="_blank" rel="noopener">脚本网站 Greasyfork</a> 中下载脚本，优秀的脚本有：<ul>
+<li><a href="https://greasyfork.org/zh-CN/scripts/329484" target="_blank" rel="noopener">豆瓣资源下载大师</a>：神器，下载豆瓣书籍、电影的资源大全；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/27530" target="_blank" rel="noopener">破解 VIP 会员视频集合</a>：破解各个视频网站的 VIP 限制；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/39504" target="_blank" rel="noopener">百度网盘直链下载助手</a>：直接获取百度网盘下载链接，但浏览器必须安装迅雷插件来直接下载；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/37058" target="_blank" rel="noopener">全网音乐一键免费下载</a>：解析音乐下载地址，可直接下载各个平台的音乐；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/33046" target="_blank" rel="noopener">网易云音乐直接下载</a>：更简捷的在网易云音乐的网站上下载音乐；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/33729" target="_blank" rel="noopener">京东自营过滤</a>：过滤掉京东搜索结果中的非自营商家；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/20756" target="_blank" rel="noopener">京东热卖跳转</a>：直接从京东热卖跳转到购买页面中；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/28497" target="_blank" rel="noopener">网页限制解除</a>：解除掉网页的一些限制如不允许复制；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/372516" target="_blank" rel="noopener">bilibili 下载</a>：下载 B 站的视频；</li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/367983" target="_blank" rel="noopener">电影天堂直接提供迅雷下载链接</a>：使用电影天堂时在电影页面直接显示迅雷下载链接；</li>
+</ul>
+</li>
+</ul>
+<p><strong>缺点</strong>：Chrome 极为消耗资源。</p>
+<h2 id="XXNet：翻墙。"><a href="#XXNet：翻墙。" class="headerlink" title="XXNet：翻墙。"></a><a href="https://github.com/XX-net/XX-Net/blob/master/code/default/download.md" target="_blank" rel="noopener">XXNet</a>：翻墙。</h2><p><strong>说明</strong>：免费翻墙，速度有保证，最多<strong>每天</strong>可以有<strong>12G</strong>的流量（!!!），Facebook, Twitter, Youtube 都可流畅访问。</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>安装以及 Chrome 设置；<ul>
+<li>下载并解压后，双击运行<code>start.vbs</code>，一路允许，然后程序会自动添加快捷方式；</li>
+<li>右键点击在通知栏的小图标，勾选“全局PAC智能代理”；</li>
+<li>打开 Chrome 浏览器，输入<code>chrome://extensions</code>进入扩展页面。打开<code>XX-Net/SwitchyOmega</code>文件夹，把里面的<code>SwitchyOmega.crx</code>拖进 Chrome 里面进行安装；</li>
+<li>在 SwitchyOmega 界面，“导入/导出”——“从备份文件恢复”——选择<code>XX-Net/SwitchyOmega</code>文件夹里面的<code>OmegaOptions.bak</code>文件；</li>
+<li>导入后，在 SwitchyOmega 界面，“情境模式”——“XX-Net自动切换”——“立即更新情景模式”；</li>
+<li>返回 Chrome 主页面，点击右上角的 SwitchyOmega 按钮，选择<code>XX-Net自动切换</code>。再右键点击在通知栏的小图标，勾选“取消全局代理”；</li>
+</ul>
+</li>
+<li>创建 Google AppID，获得更多且更稳定的流量；<ul>
+<li>打开<a href="https://console.developers.google.com" target="_blank" rel="noopener">https://console.developers.google.com</a>，“顶部<code>Project</code>”——“创建项目”——随便输入名称然后点“创建”，即可。如果想最大化 XX-Net 的流量，可以最多申请 12 个 AppID；</li>
+<li>单击小图标，进入设置页面<a href="http://127.0.0.1:8085/" target="_blank" rel="noopener">http://127.0.0.1:8085/</a>，“部署服务端”——输入所有申请好的 AppID后（每个ID用<code>|</code>分隔）——“开始部署”——“允许”授权；</li>
+<li>部署完成后切换到设置页面的“配置”——输入所有 AppID（每个 ID 用<code>|</code>分隔）——“保存”；</li>
+<li>可以通过<a href="appengine.google.com">appengine.google.com</a>查看流量使用情况；</li>
+</ul>
+</li>
+<li>具体查看<a href="https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3" target="_blank" rel="noopener">中文文档</a>。</li>
+</ul>
+<p><strong>缺点</strong>：配置较为复杂，访问 Google 不是非常稳定。</p>
+<h2 id="Notepad-：文件查看。"><a href="#Notepad-：文件查看。" class="headerlink" title="Notepad++：文件查看。"></a><a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>：文件查看。</h2><p><strong>说明</strong>：Notepad++ 小巧，可以打开多种格式的文件，查看文件时非常有效快捷。相对于强大的全键盘操作编辑器 <a href="http://www.vim.org/" target="_blank" rel="noopener">Vim</a> 和 <a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener">Emacs</a>，如果没有特别的效率要求，Notepad++ 已经足够用了。而相比于 <a href="http://www.ultraedit.cn/" target="_blank" rel="noopener">UltraEdit</a>，Notepad++ 功能较弱，但小巧且免费。</p>
+<p><strong>配置</strong>：如果只是用 Notepad++ 来查看文件，不安装插件，开箱即用就行。</p>
+<p><strong>缺点</strong>：颜值低。</p>
+<h2 id="IrfanView：图片浏览器。"><a href="#IrfanView：图片浏览器。" class="headerlink" title="IrfanView：图片浏览器。"></a><a href="http://www.irfanview.com/" target="_blank" rel="noopener">IrfanView</a>：图片浏览器。</h2><p><strong>说明</strong>：免费，小巧，功能完善。</p>
+<p><strong>配置</strong>：无特别设置，但翻到最后一张图片后默认会弹窗提示，有点不舒服。所以可以通过”Options”——“Properties/Settings”——“Browsing/Editing”——把”Show Browse dialog”改选为”Loop current folder”，即可。</p>
+<p><strong>缺点</strong>：颜值比较低，需要掌握一些快捷键。</p>
+<h2 id="为知笔记：知识管理。"><a href="#为知笔记：知识管理。" class="headerlink" title="为知笔记：知识管理。"></a><a href="http://www.wiz.cn/" target="_blank" rel="noopener">为知笔记</a>：知识管理。</h2><p><strong>说明</strong>：个人用过的体验最好的知识管理软件。可替代产品是<a href="https://note.youdao.com/" target="_blank" rel="noopener">有道云笔记</a>。<a href="https://www.yinxiang.com/" target="_blank" rel="noopener">印象笔记</a>由于灵活性低，软件大，资源消耗多，因此不作推荐，但依然有非常多忠诚用户。不过印象笔记的多设备同步是做得非常出色的。</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>需要申请账号才能使用，也让云端可以同步笔记；</li>
+<li>需要在 Chrome 里面安装“为知笔记剪藏器”插件，就可以剪辑网页，收藏觉得好的文章；</li>
+<li>可以安装插件，但好像没有什么必装不可的插件；</li>
+<li>学习个人知识管理，<a href="http://www.jianshu.com/p/6315a888b171" target="_blank" rel="noopener">这篇文章</a>讲得很好；</li>
+<li>学习 <a href="http://www.jianshu.com/p/fdb5cbdaf244" target="_blank" rel="noopener">Markdown 语法</a>，为知笔记是极好的 Markdown 编辑器，依靠 Markdown 语法，用为知笔记可以格式写出很好的笔记。</li>
+</ul>
+<p><strong>缺点</strong>：资源消耗比较大，此外在数据安全性上，小公司能否一直运营是个疑问。</p>
+<h2 id="迅雷极速版：下载工具。"><a href="#迅雷极速版：下载工具。" class="headerlink" title="迅雷极速版：下载工具。"></a><a href="http://www.pc6.com/softview/SoftView_108931.html" target="_blank" rel="noopener">迅雷极速版</a>：下载工具。</h2><p><strong>说明</strong>：迅雷的稳定性和速度依然非常好，可下载 bt，而且迅雷极速版则少了一些广告和弹窗。很多人推荐的神器 <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">Internet Download Manager</a>，我没有过所以不作阐述。</p>
+<p><strong>配置</strong>：无。</p>
+<p><strong>缺点</strong>：由于不再更新该产品，每次打开都会提示升级。</p>
+<h2 id="Motrix：百度网盘下载。"><a href="#Motrix：百度网盘下载。" class="headerlink" title="Motrix：百度网盘下载。"></a><a href="https://motrix.app/" target="_blank" rel="noopener">Motrix</a>：百度网盘下载。</h2><p><strong>说明</strong>：现在由于对百度云上面的文件下载链接解析困难，所以现在用迅雷也很难下载百度云的文件了。现在的替代方案是使用 Motrix 下载器，该下载器与迅雷相似也可以下载 BT，并且可以通过下载和安装 <a href="https://github.com/agalwood/Motrix/wiki/Browser-Extensions" target="_blank" rel="noopener">BaiduExporter</a> 插件，在百度云的页面形成 MO.app 按钮，点击即可直接用 Motrix 下载；</p>
+<p><strong>配置</strong>：下载 <a href="https://github.com/agalwood/Motrix/wiki/Browser-Extensions" target="_blank" rel="noopener">BaiduExporter</a> 插件，在 Chrome 使用开发者模式进行安装；</p>
+<p><strong>缺点</strong>：速度不够迅雷快，稳定性欠佳。</p>
+<h2 id="you-get：流媒体下载。"><a href="#you-get：流媒体下载。" class="headerlink" title="you-get：流媒体下载。"></a><a href="https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener">you-get</a>：流媒体下载。</h2><p><strong>说明</strong>：流媒体下载以往用的是<a href="http://download.flvcd.com/" target="_blank" rel="noopener">硕鼠</a>，但是硕鼠如今也不太稳定，而且毕竟软件比较大不太优雅。用 <a href="http://www.eagleget.com/cn/" target="_blank" rel="noopener">EagleGet</a> 也是可以考虑的，但是有很多网站无法下载。所以 you-get 是一个很好的解决方案，小巧，灵活，支持多个网站的下载，功能强劲。</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>一般来说需要安装 Python3 和 FFmpeg，但是 Windows 用户可以直接下载 <a href="https://github.com/soimort/you-get/releases/tag/v0.4.1295" target="_blank" rel="noopener">exe安装包</a>进行安装；</li>
+<li>解压缩后把文件夹放好，然后打开命令行工具cmd，<code>cd</code>去到 you-get 文件夹，然后输入<code>you-get.bat</code>（文件夹里面的 you-get.bat 起作用）即可进入 you-get 的下载界面；</li>
+<li>输入<code>you-get link_of_video_or_picture</code>，如 <code>you-get http://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society</code>，就可以把视频下载到 you-get 文件夹里面；</li>
+<li>更具体的功能可以参考<a href="http://www.jianshu.com/p/a3f8df948395#" target="_blank" rel="noopener">这篇文章</a>。</li>
+</ul>
+<p><strong>缺点</strong>：命令行操作，有一定的门槛。</p>
+<h2 id="福昕阅读器-FoxitReader：PDF阅读器。"><a href="#福昕阅读器-FoxitReader：PDF阅读器。" class="headerlink" title="福昕阅读器 FoxitReader：PDF阅读器。"></a><a href="http://www.foxitsoftware.cn/products/reader/" target="_blank" rel="noopener">福昕阅读器 FoxitReader</a>：PDF阅读器。</h2><p><strong>说明</strong>：免费，界面优美，功能完善。相比 <a href="https://get.adobe.com/cn/reader/" target="_blank" rel="noopener">Adobe Reader</a> 又比较小巧；</p>
+<p><strong>配置</strong>：需要去除广告，“文件”——“偏好设置”——“常规”——把“显示广告条”的勾去掉；</p>
+<p><strong>缺点</strong>：软件比较大，资源消耗也比较大。如果没有特殊需求，可以直接用 <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html" target="_blank" rel="noopener">Sumartra PDF</a>，软件小，启动快，资源消耗小，免费，但功能少，颜值低。</p>
+<h2 id="PotPlayer：视频播放器。"><a href="#PotPlayer：视频播放器。" class="headerlink" title="PotPlayer：视频播放器。"></a><a href="http://potplayer.daum.net/" target="_blank" rel="noopener">PotPlayer</a>：视频播放器。</h2><p><strong>说明</strong>：免费，解码功能强大，各项功能完善，颜值高；</p>
+<p><strong>配置</strong>：</p>
+<ul>
+<li>皮肤设置。下载 <a href="https://pan.baidu.com/s/1eQe4182" target="_blank" rel="noopener">Zune皮肤</a>并解压。打开 PotPlayer，“选项”——“基本”——“皮肤/配色”——“打开皮肤文件夹”，把Zune皮肤复制过来；</li>
+<li>打造无边框。点解重新搜索，然后选中<code>Zune.dsf</code>，勾选“视频下自动隐藏”和“以视频皮肤启动”，然后点击“皮肤/配色”下面的“皮肤输出方式/放大”，方式选为“使用Direct3D 9”，取消“不自动隐藏鼠标停留处的皮肤”选项。即可。</li>
+<li>有 V2EX 网友表示 <a href="http://daumpotplayer.com/skin-youtube-skin-for-potplayer-by-oclambo/" target="_blank" rel="noopener">Youtube 皮肤</a>也很不错，配置方法和 Zune 皮肤一样；</li>
+</ul>
+<p><strong>缺点</strong>：视频播放器里面，属于没有槽点的一款软件。</p>
+<h2 id="网易云音乐：网络音频播放器。"><a href="#网易云音乐：网络音频播放器。" class="headerlink" title="网易云音乐：网络音频播放器。"></a><a href="http://music.163.com/" target="_blank" rel="noopener">网易云音乐</a>：网络音频播放器。</h2><p><strong>说明</strong>：口碑之作，颜值及播放效果俱佳，网友评论有趣，歌单形式不错，推荐效果良好。可在微软官方商城下载 UWP 版（但桌面版调整白色图标比较轻松）；</p>
+<p><strong>配置</strong>：需要账号连接；</p>
+<p><strong>缺点</strong>：曲库经常因版权问题而缺失一些曲目。</p>
+<h2 id="Mcool：本地音频播放器。"><a href="#Mcool：本地音频播放器。" class="headerlink" title="Mcool：本地音频播放器。"></a><a href="https://mcool.appinn.me/" target="_blank" rel="noopener">Mcool</a>：本地音频播放器。</h2><p><strong>说明</strong>：非常小巧，但已经足够；</p>
+<p><strong>配置</strong>：可设置为透明；</p>
+<p><strong>缺点</strong>：非常简陋，需要大量配置才能有较好的外观，需要熟悉快捷键才能流畅的使用。</p>
+<h2 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h2><p>输入法采用的是 Win10 自带的输入法。暂时使用良好，但不像搜狗这种支持多种功能，以及可自定义词库等等。不过搜狗输入法在高分屏上面表现很差，其它输入法也是（Bing 拼音在高分屏下表现还行，但是体验不好），所以有待继续观察。</p>
+<h1 id="5-工作软件"><a href="#5-工作软件" class="headerlink" title="5. 工作软件"></a>5. 工作软件</h1><h2 id="Word-Excel-PPT：Office-三件套，不解释。"><a href="#Word-Excel-PPT：Office-三件套，不解释。" class="headerlink" title="Word/Excel/PPT：Office 三件套，不解释。"></a><a href="https://www.office.com/" target="_blank" rel="noopener">Word/Excel/PPT</a>：Office 三件套，不解释。</h2><p>PPT 增强插件：</p>
+<ul>
+<li><a href="https://filehippo.com/zh/download_islide/" target="_blank" rel="noopener">iSlider</a>：提供了如统一字体等多个实用 PPT 工具；</li>
+<li><a href="https://icons8.com/" target="_blank" rel="noopener">icon8</a>：离线图标。</li>
+</ul>
+<h2 id="Cmder：强化版控制台。"><a href="#Cmder：强化版控制台。" class="headerlink" title="Cmder：强化版控制台。"></a><a href="http://cmder.net/" target="_blank" rel="noopener">Cmder</a>：强化版控制台。</h2><p><strong>说明</strong>：Windows 原装的 Cmd 非常难用，无法自动补全，无法复制粘贴，无法高亮。因此可以采用 Cmder 来满足这些功能。Cmder 的完整版还与 Git for Windows 集成了。因此下载了 Cmder 完整版就相当于下载了 Git；</p>
+<p><strong>配置</strong>：无，具体可以定制化设置；</p>
+<p><strong>缺点</strong>：中文容易出 bug。</p>
+<h2 id="Anaconda：数据分析。"><a href="#Anaconda：数据分析。" class="headerlink" title="Anaconda：数据分析。"></a><a href="https://www.anaconda.com/distribution/" target="_blank" rel="noopener">Anaconda</a>：数据分析。</h2><p><strong>说明</strong>：集成了 Python 所需的大部分数据分析包，并且提供了数据分析界面如 Jupyter Notebook, JupyterLab, Spyder 等，基本是 Python 数据分析的标准软件了。而且 Anaconda 还提供了 <a href="https://anaconda.org/r/r-essentials" target="_blank" rel="noopener">R 的基础数据分析包</a>以及 R 的数据分析新标准 <a href="https://anaconda.org/r/r-tidyverse" target="_blank" rel="noopener">tidyverse 包</a>，然后再使用 Jupyter Notebook 来进行 R 的数据分析。因此可以不安装 RStudio 也可用 Ananconda 一起进行所有的数据分析；</p>
+<p><strong>配置</strong>：需要加入到系统路径中，下载可更换国内源，Jupyter Notebook 可下载插件；</p>
+<p><strong>缺点</strong>：不稳定，经常无法连接和下载。</p>
+<h2 id="Mendeley：文献管理。"><a href="#Mendeley：文献管理。" class="headerlink" title="Mendeley：文献管理。"></a><a href="https://www.mendeley.com/" target="_blank" rel="noopener">Mendeley</a>：文献管理。</h2><p><strong>说明</strong>：</p>
+<ul>
+<li>Mendeley相对于其它文献管理软件，主要优势就是<strong>免费开源</strong>。其它的文献管理软件如<a href="http://endnote.com/" target="_blank" rel="noopener">Endnote</a>、<a href="https://www.citavi.com/" target="_blank" rel="noopener">Citavi</a>、<a href="https://www.readcube.com/" target="_blank" rel="noopener">ReadCube</a> 等都是闭源或者收费，或者对文献数量有限制；</li>
+<li>Mendeley 与 Endnote 相比，在文献管理的总逻辑上有不同，但具体在功能上差距不大，颜值上差一点；Citavi 独树一帜，非常严谨，还有知识总结的模式，用起来体验也非常不错，不过免费版文献数量受限；ReadCube 颜值最高，但在 Windows 系统下 bug 太多，严谨性也弱于 Citavi，因此不作推荐；</li>
+<li>相对于开源界的另一个重要的文献管理软件 <a href="https://www.zotero.org/" target="_blank" rel="noopener">Zotero</a>，Mendeley 在 PDF 的管理和阅读上要明显高出一筹。但是在网页信息抓取，特别是中文文献，完全抓取失败，对中文 PDF 的支持也很差，无法识别；</li>
+<li>如果使用 Word 进行文献导入，Endnote 是支持最好的。因此如果是主要用 Word 写论文，那么理论上在 Mendeley 的基础上，还是要下载和使用 Endnote；</li>
+</ul>
+<p><strong>配置</strong>：需要账号连接，在 Chrome 中要安装插件抓取文献信息；</p>
+<p><strong>缺点</strong>：网页文献信息抓取能力弱，颜值低。事实上如果一款文献管理软件可以结合 Zotero 的网页抓取能力，Endnote 与 WOS 的集成能力，Citavi 的结构和管理方式，ReadCube 的颜值，以及免费无限量使用，那就是最好了。</p>
+<h2 id="FreeMind：思维导图。"><a href="#FreeMind：思维导图。" class="headerlink" title="FreeMind：思维导图。"></a><a href="http://freemind.sourceforge.net/" target="_blank" rel="noopener">FreeMind</a>：思维导图。</h2><p><strong>说明</strong>：事实上，FreeMind 的模板很少，颜值低，被唾弃的多。但是一旦掌握少数的快捷键，FreeMind 就有快速产出思维导图的能力，所以我一直使用的是 FreeMind。但口碑更好的是 <a href="http://www.xmindchina.net/xiazai.html" target="_blank" rel="noopener">Xmind</a>，因为我还没仔细使用，在此不做评价；</p>
+<p><strong>配置</strong>：无，需要熟记几个简单的快捷键；</p>
+<p><strong>缺点</strong>：模板少，颜值低，可定制能力差，只能自己看基本不能做展示。</p>
+<h2 id="Typora：Markdown-本地写作工具。"><a href="#Typora：Markdown-本地写作工具。" class="headerlink" title="Typora：Markdown 本地写作工具。"></a><a href="https://typora.io/" target="_blank" rel="noopener">Typora</a>：Markdown 本地写作工具。</h2><p><strong>说明</strong>：Typora 让 Markdown 可以所见即所得，马上的渲染出最终页面，并且可以使用和 Word 相似的快捷键（如 Ctrl+B 是加粗）。颜值较为漂亮。如果进行博客写作是需要一个专门的 Markdown 写作工具的，Typora 在 Windows 系统下是个不错的选择；<br><strong>配置</strong>：可在官网上下载一些特别的主题配色；<br><strong>缺点</strong>：所见即所得的方式虽然方便，但有时操作性并不够源码好，并且有时候渲染出来的效果不一定非常好。</p>
+<h1 id="6-网络工具"><a href="#6-网络工具" class="headerlink" title="6. 网络工具"></a>6. 网络工具</h1><h2 id="Inoreader：RSS-阅读器。"><a href="#Inoreader：RSS-阅读器。" class="headerlink" title="Inoreader：RSS 阅读器。"></a><a href="https://www.inoreader.com" target="_blank" rel="noopener">Inoreader</a>：RSS 阅读器。</h2><p><strong>说明</strong>：在信息洪流中，RSS 是掌控个人信息获取的重要工具。特别是大量有益资源是来自于外文网站中，国内的公众号、头条、门户等信息源往往是二手资料，并且夹杂大量无益的信息。因此必须使用 RSS 阅读器去精选自己感兴趣的，高质量的信息来源。Inoreader 是较多人推荐的 RSS 阅读器，另外的同类产品还有 <a href="https://feedly.com/" target="_blank" rel="noopener">Feedly</a>，Feedly 颜值较高，但在国内基本连不上，并且对订阅数量限制较多。因此 Inoreader 在国内更好用，并且 Inoreader 的手机端也设计得很不错，文章排版舒服，并且容易使用；</p>
+<p><strong>配置</strong>：在网上搜索高质量的与自身领域相关的国内外博客及资源站，添加到 Inoreader 里面；</p>
+<p><strong>缺点</strong>：Web 版的界面还是较为简陋，信息流的排版与 Feedly 相比欠佳。</p>
+<h2 id="Workflowy：笔记工具。"><a href="#Workflowy：笔记工具。" class="headerlink" title="Workflowy：笔记工具。"></a><a href="https://workflowy.com/" target="_blank" rel="noopener">Workflowy</a>：笔记工具。</h2><p><strong>说明</strong>：Workflowy 可以记录特别结构化目录化的笔记，而且记录速度很快，非常适用于记录书籍。相似产品是<a href="https://mubu.com/" target="_blank" rel="noopener">幕布</a>，幕布是中文的较为稳定，并且可以导出为思维导图；</p>
+<p><strong>配置</strong>：学习使用里面的快捷键来快速的创建条目以及在条目中前后跳跃，能极大提升记录效率。有 Chrome APP 版本，可离线使用；</p>
+<p><strong>缺点</strong>：插入图片功能不佳。免费版每月有条目的数量限制。</p>
+<h2 id="ProcessOn-和-Gliffy-Diagram：流程图及基本图形制作。"><a href="#ProcessOn-和-Gliffy-Diagram：流程图及基本图形制作。" class="headerlink" title="ProcessOn 和 Gliffy Diagram：流程图及基本图形制作。"></a><a href="https://www.processon.com/" target="_blank" rel="noopener">ProcessOn</a> 和 <a href="https://www.gliffy.com/" target="_blank" rel="noopener">Gliffy Diagram</a>：流程图及基本图形制作。</h2><p><strong>说明</strong>：这两个软件可进行基本的图形绘制，可以认为是 Microsoft Visio 的低配版。但是这两个软件比较容易上手，方便操作。其中 ProcessOn 可以团队协作进行图形制作，但是有总图形数量限制。Gliffy Diagram 没有团队协作功能，但无数量限制。这两个软件都有 Chrome 应用版，可进行离线操作。</p>
+<p><strong>配置</strong>：无；</p>
+<p><strong>缺点</strong>：如上所述，一个有数量限制，一个无团队协作，视个人需求使用。</p>
+<h2 id="Trello：（个人）项目管理。"><a href="#Trello：（个人）项目管理。" class="headerlink" title="Trello：（个人）项目管理。"></a><a href="https://trello.com/" target="_blank" rel="noopener">Trello</a>：（个人）项目管理。</h2><p><strong>说明</strong>：Trello 采用了看板的模式，其初衷是进行事件管理，即项目管理。对于个人来说，往往可用于个人待办事项的整理，也可以作为个人资料知识的总结，还可以进行资料的整理例如学术期刊资料、学者资料等等；</p>
+<p><strong>配置</strong>：不同的使用目的具有不同的看板整理思路，需要有一定的分类和系统整理的思维，但也是在实践中不断摸索的；</p>
+<p><strong>缺点</strong>：国内连接不稳定，经常无法加载图片。</p>
+<h2 id="OverLeaf：LaTeX-编辑器。"><a href="#OverLeaf：LaTeX-编辑器。" class="headerlink" title="OverLeaf：LaTeX 编辑器。"></a><a href="https://www.overleaf.com" target="_blank" rel="noopener">OverLeaf</a>：LaTeX 编辑器。</h2><p><strong>说明</strong>：一般来说，编写中文 LaTeX 都是从 CTeX 上面下载安装包，然后本地安装后使用。但是云端的 LaTeX 编辑器就无需自己配置，同样可以编写中文，因此更为方便。原来云端 LaTeX 编辑器有 <a href="https://www.overleaf.com" target="_blank" rel="noopener">OverLeaf</a> 和 <a href="https://cn.sharelatex.com" target="_blank" rel="noopener">ShareLaTeX</a> 两款，后来两者合并，成为 Overleaf2。OverLeaf 颜值高，然而在国内稳定性非常差，速度特别慢。</p>
+<p><strong>配置</strong>：中文配置。</p>
+<ul>
+<li><p>如果直接编写中文的 LaTeX 文档，那么直接使用<code>\documentclass{ctexart}</code>即可；</p>
+</li>
+<li><p>如果编写英文或者 Beamer（PPT）的 LaTeX 文档，中间要用到中文字符，那么<code>\documentclass{beamer}</code>后，使用<code>\usepackage{xeCJK}</code>；</p>
+</li>
+<li><p>最后编译的时候应该选择<code>XeLaTeX</code>引擎。</p>
+</li>
+</ul>
+<p><strong>缺点</strong>：非常不稳定，如果有重要的 LaTeX 写作需求还是使用本地软件更好，如 <a href="http://tug.org/texlive/" target="_blank" rel="noopener">TeXLive</a>。</p>
+<h1 id="7-小软件"><a href="#7-小软件" class="headerlink" title="7. 小软件"></a>7. 小软件</h1><h2 id="CopyTranslator：本地划词翻译。"><a href="#CopyTranslator：本地划词翻译。" class="headerlink" title="CopyTranslator：本地划词翻译。"></a><a href="https://copytranslator.github.io/" target="_blank" rel="noopener">CopyTranslator</a>：本地划词翻译。</h2><p><strong>说明</strong>：对于本地阅读外文 PDF 时，遇到不懂的单词短语往往要去到网站搜索。而本地划词翻译就可以直接解决这个问题；</p>
+<p><strong>配置</strong>：设置剪贴板监听，就可以复制文字的同时弹出翻译的结果；</p>
+<p><strong>缺点</strong>：颜值极低，稳定性不强容易崩溃，无法调整字体大小。</p>
+<h2 id="SciHub-Desktop：利用-SciHub-下载论文。"><a href="#SciHub-Desktop：利用-SciHub-下载论文。" class="headerlink" title="SciHub Desktop：利用 SciHub 下载论文。"></a><a href="https://zhuanlan.zhihu.com/p/31809890" target="_blank" rel="noopener">SciHub Desktop</a>：利用 SciHub 下载论文。</h2><p><strong>说明</strong>：Sci-Hub 提供了大量论文的免费下载途径，但在网上经常打不开。一般人无法知道大量可用的 Sci-Hub，因此该桌面版就提供了一键式的 Sci-Hub 论文查询，非常方便；</p>
+<p><strong>配置</strong>：若使用 SciHub Desktop 下载论文，需要提供论文的 DOI 地址，可用<a href="https://www.labxing.com/paper" target="_blank" rel="noopener">该网址</a> 输入论文题目来查询论文的 DOI；</p>
+<p><strong>缺点</strong>：Sci-Hub 源不稳定，因此该工具也无法解决这个问题。</p>
+<h2 id="微软必应词典：词典。"><a href="#微软必应词典：词典。" class="headerlink" title="微软必应词典：词典。"></a><a href="https://www.microsoft.com/zh-cn/store/p/%E5%BE%AE%E8%BD%AF%E5%BF%85%E5%BA%94%E8%AF%8D%E5%85%B8-win10/9nblggh63sw0" target="_blank" rel="noopener">微软必应词典</a>：词典。</h2><p><strong>说明</strong>：微软商城的 UWP 版，界面漂亮，比起传统的 Lingos 和 Mdict，颜值实在是碾压。可以记录生词，可以全文翻译。</p>
+<p><strong>配置</strong>：无。</p>
+<p><strong>缺点</strong>：实用性相比于可以拓展词典的软件要弱。</p>
+<h2 id="Apowersoft：录屏。"><a href="#Apowersoft：录屏。" class="headerlink" title="Apowersoft：录屏。"></a><a href="http://www.apowersoft.cn/free-online-screen-recorder" target="_blank" rel="noopener">Apowersoft</a>：录屏。</h2><p><strong>说明</strong>：Apowersoft 口碑不错，免费，操作也容易，录制质量也好，无录制时长限制，无水印。虽然可替代产品非常多，但这款确实比其它好。</p>
+<p><strong>配置</strong>：无。</p>
+<p><strong>缺点</strong>：待考。</p>
+<h2 id="360-screener：截图小工具。"><a href="#360-screener：截图小工具。" class="headerlink" title="360 screener：截图小工具。"></a><a href="http://www.downcc.com/soft/13414.html" target="_blank" rel="noopener">360 screener</a>：截图小工具。</h2><p>功能足够，速度比 Windows 原装的截图工具更快。若要功能更全面，应选择 <a href="http://www.faststone.org/FSCaptureDetail.htm" target="_blank" rel="noopener">FastStone Capture</a>。</p>
+<h2 id="ProcessExplorer：更详细的任务管理器。"><a href="#ProcessExplorer：更详细的任务管理器。" class="headerlink" title="ProcessExplorer：更详细的任务管理器。"></a><a href="https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx" target="_blank" rel="noopener">ProcessExplorer</a>：更详细的任务管理器。</h2><p>可以更细致的观察各个任务的进程。</p>
+<h2 id="HistCite-Pro：文献引文网络分析。"><a href="#HistCite-Pro：文献引文网络分析。" class="headerlink" title="HistCite Pro：文献引文网络分析。"></a><a href="https://zhuanlan.zhihu.com/p/20902898" target="_blank" rel="noopener">HistCite Pro</a>：文献引文网络分析。</h2><p>可以分析通过 WOS 下载得到的领域论文，得出论文的被引频次，重要性等指标值，画出论文被引的网络图，从而识别论文的源流以及重要性。</p>
+<h2 id="Mathpix-Snipping-Tool：识别公式并转换为-LaTeX。"><a href="#Mathpix-Snipping-Tool：识别公式并转换为-LaTeX。" class="headerlink" title="Mathpix Snipping Tool：识别公式并转换为 LaTeX。"></a><a href="https://mathpix.com/" target="_blank" rel="noopener">Mathpix Snipping Tool</a>：识别公式并转换为 LaTeX。</h2><p>该工具可识别图片、PDF、网页里面的数学公式，并转换为 LaTeX (MathJax) 代码。以后再也不用手敲公式代码了。</p>
+<h2 id="PicGo：网络图床工具。"><a href="#PicGo：网络图床工具。" class="headerlink" title="PicGo：网络图床工具。"></a><a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">PicGo</a>：网络图床工具。</h2><p>该软件提供便捷的上传图片到网络图床的途径，并且还提供了多个网络图床可供选择。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+      <div>
+        
+
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Rong Zhe</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/" title="Win10 软件配置方案">http://azure-rong.github.io/2019/05/05/Win10-软件配置方案/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/软件/" rel="tag"><i class="fa fa-tag"></i> 软件</a>
+          
+            <a href="/tags/配置/" rel="tag"><i class="fa fa-tag"></i> 配置</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/30/Windows-系统使用-Hexo-搭建博客（四）：博客写作/" rel="next" title="Windows 系统使用 Hexo 搭建博客（四）：博客写作">
+                <i class="fa fa-chevron-left"></i> Windows 系统使用 Hexo 搭建博客（四）：博客写作
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MzQ1OS8xOTk5OQ=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar-lamp.gif" alt="Rong Zhe">
+            
+              <p class="site-author-name" itemprop="name">Rong Zhe</p>
+              <div class="site-description motion-element" itemprop="description">学习和研究的记录，关注数据科学和电子商务。</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/rss2.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/Azure-rong" title="Github &rarr; https://github.com/Azure-rong" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>Github</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:rongzhe2012@gmail.com" title="E-Mail &rarr; mailto:rongzhe2012@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://zhihu.com/people/rong-zhe/activities" title="知乎 &rarr; https://zhihu.com/people/rong-zhe/activities" rel="noopener" target="_blank"><i class="fa fa-fw fa-zhihu"></i>知乎</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://book.douban.com/people/rongzhe" title="豆瓣阅读 &rarr; https://book.douban.com/people/rongzhe" rel="noopener" target="_blank"><i class="fa fa-fw fa-books"></i>豆瓣阅读</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-基础设置"><span class="nav-text">1. 基础设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-系统必备软件"><span class="nav-text">2. 系统必备软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#360-Total-Security-或火绒安全：杀毒软件。"><span class="nav-text">360 Total Security 或火绒安全：杀毒软件。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CCleaner-Defraggler-Recuva：梨子公司三件套。"><span class="nav-text">CCleaner/Defraggler/Recuva：梨子公司三件套。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Everything：快速搜索。"><span class="nav-text">Everything：快速搜索。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#好压：压缩解压软件。"><span class="nav-text">好压：压缩解压软件。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Memreduct：降低内存。"><span class="nav-text">Memreduct：降低内存。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-系统界面强化软件"><span class="nav-text">3. 系统界面强化软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Launchy：快速启动。"><span class="nav-text">Launchy：快速启动。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Free-Launch-Bar：替代-Win10-原生的任务栏。"><span class="nav-text">Free Launch Bar：替代 Win10 原生的任务栏。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TranslucentTB：让任务栏变透明。"><span class="nav-text">TranslucentTB：让任务栏变透明。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#QTTabbar：资源管理器多标签。"><span class="nav-text">QTTabbar：资源管理器多标签。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Smart-Taskbar：智能任务栏。"><span class="nav-text">Smart Taskbar：智能任务栏。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-日常所需软件"><span class="nav-text">4. 日常所需软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Chrome：网络浏览器。"><span class="nav-text">Chrome：网络浏览器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#XXNet：翻墙。"><span class="nav-text">XXNet：翻墙。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Notepad-：文件查看。"><span class="nav-text">Notepad++：文件查看。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IrfanView：图片浏览器。"><span class="nav-text">IrfanView：图片浏览器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为知笔记：知识管理。"><span class="nav-text">为知笔记：知识管理。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#迅雷极速版：下载工具。"><span class="nav-text">迅雷极速版：下载工具。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Motrix：百度网盘下载。"><span class="nav-text">Motrix：百度网盘下载。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#you-get：流媒体下载。"><span class="nav-text">you-get：流媒体下载。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#福昕阅读器-FoxitReader：PDF阅读器。"><span class="nav-text">福昕阅读器 FoxitReader：PDF阅读器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PotPlayer：视频播放器。"><span class="nav-text">PotPlayer：视频播放器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网易云音乐：网络音频播放器。"><span class="nav-text">网易云音乐：网络音频播放器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Mcool：本地音频播放器。"><span class="nav-text">Mcool：本地音频播放器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输入法"><span class="nav-text">输入法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-工作软件"><span class="nav-text">5. 工作软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Word-Excel-PPT：Office-三件套，不解释。"><span class="nav-text">Word/Excel/PPT：Office 三件套，不解释。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cmder：强化版控制台。"><span class="nav-text">Cmder：强化版控制台。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Anaconda：数据分析。"><span class="nav-text">Anaconda：数据分析。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Mendeley：文献管理。"><span class="nav-text">Mendeley：文献管理。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FreeMind：思维导图。"><span class="nav-text">FreeMind：思维导图。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Typora：Markdown-本地写作工具。"><span class="nav-text">Typora：Markdown 本地写作工具。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-网络工具"><span class="nav-text">6. 网络工具</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Inoreader：RSS-阅读器。"><span class="nav-text">Inoreader：RSS 阅读器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Workflowy：笔记工具。"><span class="nav-text">Workflowy：笔记工具。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ProcessOn-和-Gliffy-Diagram：流程图及基本图形制作。"><span class="nav-text">ProcessOn 和 Gliffy Diagram：流程图及基本图形制作。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Trello：（个人）项目管理。"><span class="nav-text">Trello：（个人）项目管理。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OverLeaf：LaTeX-编辑器。"><span class="nav-text">OverLeaf：LaTeX 编辑器。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-小软件"><span class="nav-text">7. 小软件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CopyTranslator：本地划词翻译。"><span class="nav-text">CopyTranslator：本地划词翻译。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SciHub-Desktop：利用-SciHub-下载论文。"><span class="nav-text">SciHub Desktop：利用 SciHub 下载论文。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#微软必应词典：词典。"><span class="nav-text">微软必应词典：词典。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Apowersoft：录屏。"><span class="nav-text">Apowersoft：录屏。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#360-screener：截图小工具。"><span class="nav-text">360 screener：截图小工具。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ProcessExplorer：更详细的任务管理器。"><span class="nav-text">ProcessExplorer：更详细的任务管理器。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HistCite-Pro：文献引文网络分析。"><span class="nav-text">HistCite Pro：文献引文网络分析。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Mathpix-Snipping-Tool：识别公式并转换为-LaTeX。"><span class="nav-text">Mathpix Snipping Tool：识别公式并转换为 LaTeX。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PicGo：网络图床工具。"><span class="nav-text">PicGo：网络图床工具。</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Rong Zhe</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    <script>
+  window.livereOptions = {
+    refer: '2019/05/05/Win10-软件配置方案/'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('5');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+  
+  <script>
+    
+    function addCount(Counter) {
+      var $visitors = $('.leancloud_visitors');
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+
+      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
+        .done(function({ results }) {
+          if (results.length > 0) {
+            var counter = results[0];
+            
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
+            
+              .done(function() {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.time + 1);
+              })
+            
+              .fail(function ({ responseJSON }) {
+                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
+              })
+          } else {
+            
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1 }))
+                .done(function() {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function() {
+                  console.log('Failed to create');
+                });
+            
+          }
+        })
+        .fail(function ({ responseJSON }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
+        });
+    }
+    
+
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + '96f7juBo6hrdNsK028Y5ozgz-gzGzoHsz')
+        .done(function({ api_server }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': '96f7juBo6hrdNsK028Y5ozgz-gzGzoHsz',
+                'X-LC-Key': 'mdItAOJ9NYQSXW0BSpMRahq2',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          
+            addCount(Counter);
+          
+        });
+    });
+  </script>
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
